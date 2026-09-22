@@ -1,0 +1,19 @@
+{
+  "id": "clock",
+  "title": "Horloge",
+  "description": "Heure en grand, date complète, numéro de semaine et jour de l'année.",
+  "author": "starman-tech",
+  "version": "1.0.1",
+  "license": "GPL-3.0-or-later",
+  "minExtension": 5,
+  "shell": [
+    "46",
+    "47",
+    "48",
+    "49"
+  ],
+  "network": [],
+  "tags": [
+    "temps"
+  ]
+}

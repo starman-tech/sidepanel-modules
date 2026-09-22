@@ -1,0 +1,22 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  catalog:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Syntaxe des modules
+        run: |
+          for f in modules/*/*.js template/*/*.js; do
+            node --experimental-default-type=module --check "$f"
+          done
+      - name: catalog.json à jour et modules valides
+        run: python3 tools/build-catalog.py --check

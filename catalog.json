@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "modules": [
+    {
+      "id": "netspeed",
+      "title": "Débit réseau",
+      "description": "Vitesses de réception et d'envoi, courbe de la dernière minute, volume total depuis le démarrage. Lu localement dans /proc/net/dev.",
+      "author": "starman-tech",
+      "version": "1.0.1",
+      "license": "GPL-3.0-or-later",
+      "minExtension": 5,
+      "shell": [
+        "46",
+        "47",
+        "48",
+        "49"
+      ],
+      "tags": [
+        "système",
+        "réseau"
+      ],
+      "file": "modules/netspeed/netspeed.js",
+      "sha256": "c52bf7ba02a0c7d58bb27008b26d71dec2ed444a8da77ed6d839e3b9ad2dda0a"
+    },
+    {
+      "id": "clock",
+      "title": "Horloge",
+      "description": "Heure en grand, date complète, numéro de semaine et jour de l'année.",
+      "author": "starman-tech",
+      "version": "1.0.1",
+      "license": "GPL-3.0-or-later",
+      "minExtension": 5,
+      "shell": [
+        "46",
+        "47",
+        "48",
+        "49"
+      ],
+      "tags": [
+        "temps"
+      ],
+      "file": "modules/clock/clock.js",
+      "sha256": "155aea33b724856eea03d436aa5277806e05a082e2c9ce46f96a051cbe63b3b3"
+    },
+    {
+      "id": "quicknote",
+      "title": "Note rapide",
+      "description": "Bloc-notes toujours sous la main, sauvegardé automatiquement.",
+      "author": "starman-tech",
+      "version": "1.0.2",
+      "license": "GPL-3.0-or-later",
+      "minExtension": 5,
+      "shell": [
+        "46",
+        "47",
+        "48",
+        "49"
+      ],
+      "tags": [
+        "productivité",
+        "texte"
+      ],
+      "file": "modules/quicknote/quicknote.js",
+      "sha256": "8c651adfc0420432535fd83831818fd97db6dc0a1552763ac0a95d5ecddd5769"
+    },
+    {
+      "id": "pomodoro",
+      "title": "Pomodoro",
+      "description": "Cycles de 25 min de travail / 5 min de pause, longue pause toutes les 4 séances, notification de fin. Continue panneau fermé.",
+      "author": "starman-tech",
+      "version": "1.0.3",
+      "license": "GPL-3.0-or-later",
+      "minExtension": 5,
+      "shell": [
+        "46",
+        "47",
+        "48",
+        "49"
+      ],
+      "tags": [
+        "productivité",
+        "temps"
+      ],
+      "file": "modules/pomodoro/pomodoro.js",
+      "sha256": "ecf3d34c4a41033a6123201f4cbdd0853a1dd0c4ee2f18c440225af0f33dd64e"
+    }
+  ]
+}

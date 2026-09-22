@@ -1,0 +1,20 @@
+{
+  "id": "quicknote",
+  "title": "Note rapide",
+  "description": "Bloc-notes toujours sous la main, sauvegardé automatiquement.",
+  "author": "starman-tech",
+  "version": "1.0.2",
+  "license": "GPL-3.0-or-later",
+  "minExtension": 5,
+  "shell": [
+    "46",
+    "47",
+    "48",
+    "49"
+  ],
+  "network": [],
+  "tags": [
+    "productivité",
+    "texte"
+  ]
+}

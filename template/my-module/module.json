@@ -1,0 +1,12 @@
+{
+  "id": "my-module",
+  "title": "Mon module",
+  "description": "Une phrase qui dit ce que fait la carte.",
+  "author": "ton-pseudo-github",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "minExtension": 5,
+  "shell": ["46", "47", "48", "49"],
+  "network": [],
+  "tags": []
+}
