@@ -2,7 +2,7 @@
   "id": "pomodoro",
   "title": "Pomodoro",
   "description": "Cycles de 25 min de travail / 5 min de pause, longue pause toutes les 4 séances, notification de fin. Continue panneau fermé.",
-  "author": "starman-tech",
+  "author": "Matteo Gaudioso",
   "version": "1.0.3",
   "license": "GPL-3.0-or-later",
   "minExtension": 5,

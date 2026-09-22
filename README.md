@@ -1,6 +1,6 @@
-# Side Panel — community modules
+# Yuzu — community modules
 
-Cards for [Side Panel](https://github.com/starman-tech/sidepanel), the GNOME
+Cards for [Yuzu](https://github.com/starman-tech/yuzu), the GNOME
 Shell side panel. Everything here can be installed in one click from the
 extension: **Preferences → Catalogue → Installer**. No shell restart, and
 updates apply live.
@@ -31,7 +31,7 @@ URL in Preferences → Catalogue → Source.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Start from
 [`template/my-module`](template/my-module) and read the
-[module guide](https://github.com/starman-tech/sidepanel/blob/main/docs/MODULES.md).
+[module guide](https://github.com/starman-tech/yuzu/blob/main/docs/MODULES.md).
 
 ## Safety
 
@@ -43,7 +43,7 @@ request. Each module declares the hosts it contacts, and the extension shows
 them before installing.
 
 Found a problem in a published module?
-[Open an issue](https://github.com/starman-tech/sidepanel-modules/issues).
+[Open an issue](https://github.com/starman-tech/yuzu-modules/issues).
 
 ## License
 

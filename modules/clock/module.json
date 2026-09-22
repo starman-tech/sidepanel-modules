@@ -2,7 +2,7 @@
   "id": "clock",
   "title": "Horloge",
   "description": "Heure en grand, date complète, numéro de semaine et jour de l'année.",
-  "author": "starman-tech",
+  "author": "Matteo Gaudioso",
   "version": "1.0.1",
   "license": "GPL-3.0-or-later",
   "minExtension": 5,

@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
 /* Note rapide — un bloc-notes persistant, sauvegardé automatiquement dans
- * ~/.config/sidepanel/quicknote.json. */
+ * ~/.config/yuzu/quicknote.json. */
 
 import Pango from 'gi://Pango';
 
@@ -72,7 +72,7 @@ export default {
                 });
             } catch (e) {
                 status.text = 'ERREUR';
-                console.warn(`[sidepanel:quicknote] ${e}`);
+                console.warn(`[yuzu:quicknote] ${e}`);
             }
             return GLib.SOURCE_REMOVE;
         };

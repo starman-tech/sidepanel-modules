@@ -5,8 +5,8 @@ English or French are both fine in issues and pull requests.
 ## 1. Write it
 
 ```bash
-git clone https://github.com/<you>/sidepanel-modules
-cd sidepanel-modules
+git clone https://github.com/<you>/yuzu-modules
+cd yuzu-modules
 cp -r template/my-module modules/<id>
 mv modules/<id>/my-module.js modules/<id>/<id>.js
 ```
@@ -17,7 +17,7 @@ file and in `module.json` must be identical: lowercase letters, digits and
 `market`, `todo`, `sysmon`, `weather`, `calendar`, `launcher`, `assistant`).
 
 The contract and the `ctx` API are described in the
-[module guide](https://github.com/starman-tech/sidepanel/blob/main/docs/MODULES.md).
+[module guide](https://github.com/starman-tech/yuzu/blob/main/docs/MODULES.md).
 
 ### `module.json`
 
@@ -27,7 +27,7 @@ The contract and the `ctx` API are described in the
 | `author` | required; your GitHub username |
 | `version` | required; `1.0.0`. Bump it for every change, otherwise users never get the update |
 | `license` | required; GPL-compatible (`GPL-3.0-or-later` recommended) |
-| `minExtension` | Side Panel `version` needed; `5` for `ctx.api` 1 |
+| `minExtension` | Yuzu `version` needed; `5` for `ctx.api` 1 |
 | `shell` | GNOME versions you tested: `["46", "47", "48", "49"]` |
 | `network` | every host the module contacts, e.g. `["api.open-meteo.com"]`; `[]` if none |
 | `tags` | a few words, used by the search box |
@@ -39,14 +39,14 @@ In a clone of the main repository:
 
 ```bash
 tools/nested.sh                       # isolated nested shell
-cp ../sidepanel-modules/modules/<id>/<id>.js .run/sandbox/config/sidepanel/modules/
+cp ../yuzu-modules/modules/<id>/<id>.js .run/sandbox/config/yuzu/modules/
 ```
 
 then **＋** in the nested panel. Check that:
 
 - the card looks right with both themes (Preferences → Style);
 - nothing keeps running with the panel closed, unless that is the point;
-- `gnome-extensions disable sidepanel@fgaudioso.dev` then `enable` leaves no
+- `gnome-extensions disable yuzu-plus@starman-tech.github.io` then `enable` leaves no
   error in `.run/nested.log`;
 - the card survives a rebuild: change the panel width in the preferences.
 
@@ -73,7 +73,7 @@ A module is merged when it:
 - does what its description says and nothing else;
 - contacts only the hosts listed in `network`, over HTTPS;
 - releases everything in `destroy()`;
-- does not read files outside `~/.config/sidepanel`, `~/.cache/sidepanel` and
+- does not read files outside `~/.config/yuzu`, `~/.cache/yuzu` and
   what its purpose obviously requires (`/proc` for a system monitor…);
 - contains no minified or obfuscated code, and does not download or evaluate
   code at run time.

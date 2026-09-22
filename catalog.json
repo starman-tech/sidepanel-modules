@@ -5,7 +5,7 @@
       "id": "netspeed",
       "title": "Débit réseau",
       "description": "Vitesses de réception et d'envoi, courbe de la dernière minute, volume total depuis le démarrage. Lu localement dans /proc/net/dev.",
-      "author": "starman-tech",
+      "author": "Matteo Gaudioso",
       "version": "1.0.2",
       "license": "GPL-3.0-or-later",
       "minExtension": 5,
@@ -26,7 +26,7 @@
       "id": "clock",
       "title": "Horloge",
       "description": "Heure en grand, date complète, numéro de semaine et jour de l'année.",
-      "author": "starman-tech",
+      "author": "Matteo Gaudioso",
       "version": "1.0.1",
       "license": "GPL-3.0-or-later",
       "minExtension": 5,
@@ -46,7 +46,7 @@
       "id": "quicknote",
       "title": "Note rapide",
       "description": "Bloc-notes toujours sous la main, sauvegardé automatiquement.",
-      "author": "starman-tech",
+      "author": "Matteo Gaudioso",
       "version": "1.0.2",
       "license": "GPL-3.0-or-later",
       "minExtension": 5,
@@ -61,13 +61,13 @@
         "texte"
       ],
       "file": "modules/quicknote/quicknote.js",
-      "sha256": "8c651adfc0420432535fd83831818fd97db6dc0a1552763ac0a95d5ecddd5769"
+      "sha256": "5fddd91c02c1d5f67f0335151586ee6cd572a7de1a0d073d0234ba29a84e8d2c"
     },
     {
       "id": "pomodoro",
       "title": "Pomodoro",
       "description": "Cycles de 25 min de travail / 5 min de pause, longue pause toutes les 4 séances, notification de fin. Continue panneau fermé.",
-      "author": "starman-tech",
+      "author": "Matteo Gaudioso",
       "version": "1.0.3",
       "license": "GPL-3.0-or-later",
       "minExtension": 5,
@@ -82,7 +82,7 @@
         "temps"
       ],
       "file": "modules/pomodoro/pomodoro.js",
-      "sha256": "ecf3d34c4a41033a6123201f4cbdd0853a1dd0c4ee2f18c440225af0f33dd64e"
+      "sha256": "d56c6eba9f7ddc42abc62c121c6806f47d86e2b5ec522f58b2318388e47cac0b"
     }
   ]
 }

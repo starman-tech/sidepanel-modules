@@ -4,7 +4,7 @@
  * Le minuteur continue panneau fermé : la fin de séance est planifiée par
  * un seul timeout, l'affichage seconde par seconde ne tourne que panneau
  * ouvert. L'état (phase, heure de fin réelle) est enregistré dans
- * ~/.config/sidepanel/pomodoro.json : le panneau reconstruit ses cartes
+ * ~/.config/yuzu/pomodoro.json : le panneau reconstruit ses cartes
  * quand on ajoute un module, et une séance ne doit pas repartir de zéro. */
 
 import Pango from 'gi://Pango';
