@@ -58,7 +58,7 @@ export default {
         const actor = new St.BoxLayout({vertical: true, x_expand: true});
         const header = noEllipsis(new St.Label({text: 'RÉSEAU'}));
 
-        const row = new St.BoxLayout({x_expand: true});
+        const row = new St.BoxLayout({x_expand: true, style: 'spacing: 10px;'});
         const makeStat = caption => {
             const box = new St.BoxLayout({vertical: true, x_expand: true});
             const cap = noEllipsis(new St.Label({text: caption}));
@@ -95,7 +95,7 @@ export default {
             header.set_style(style.labelStyle(t, {size: 10}));
             for (const s of [down, up]) {
                 s.cap.set_style(style.labelStyle(t, {size: 9, color: s === down ? t.accent : t.textDim}));
-                s.value.set_style(`font-family: ${t.fontDisplay}; font-size: 20px; font-weight: bold; color: ${t.text};`);
+                s.value.set_style(`font-family: ${t.fontDisplay}; font-size: ${ctx.moduleWidth < 280 ? 16 : 19}px; font-weight: bold; color: ${t.text};`);
             }
             graph.set_style(`spacing: 2px; height: ${GRAPH_HEIGHT * utils.scaleFactor()}px;`);
             totals.set_style(style.labelStyle(t, {size: 9}));

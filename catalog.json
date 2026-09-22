@@ -6,7 +6,7 @@
       "title": "Débit réseau",
       "description": "Vitesses de réception et d'envoi, courbe de la dernière minute, volume total depuis le démarrage. Lu localement dans /proc/net/dev.",
       "author": "starman-tech",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "license": "GPL-3.0-or-later",
       "minExtension": 5,
       "shell": [
@@ -20,7 +20,7 @@
         "réseau"
       ],
       "file": "modules/netspeed/netspeed.js",
-      "sha256": "c52bf7ba02a0c7d58bb27008b26d71dec2ed444a8da77ed6d839e3b9ad2dda0a"
+      "sha256": "08a35a8df274c538d117af8d0126cb6053d2a7ce89d6d9f0bd224bb3df9f908f"
     },
     {
       "id": "clock",

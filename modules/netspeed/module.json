@@ -3,7 +3,7 @@
   "title": "Débit réseau",
   "description": "Vitesses de réception et d'envoi, courbe de la dernière minute, volume total depuis le démarrage. Lu localement dans /proc/net/dev.",
   "author": "starman-tech",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "GPL-3.0-or-later",
   "minExtension": 5,
   "shell": [
